@@ -1,0 +1,101 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: #E5E5E5;
+}
+
+.banner {
+    position: absolute;
+    width: 1028px;
+    height: 521px;
+    left: 206px;
+    top: 242px;
+}
+
+.title {
+    position: absolute;
+    width: 488px;
+    height: 216px;
+    left: 206px;
+    top: 242px;
+    border-radius: undefinedpx;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+
+    color: #FF4081;
+}
+
+.pbanner {
+    position: absolute;
+    width: 462px;
+    height: 62px;
+    left: 207px;
+    top: 477px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+
+    color: #555555;
+}
+
+.wantmore {
+    position: absolute;
+    width: 268px;
+    height: 51px;
+    left: 207px;
+    top: 577px;
+    
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+}
+
+.imgbanner {
+    position: absolute;
+    left: 50.9%;
+    right: 14.31%;
+    top: 7.88%;
+    bottom: 76.13%;
+    background: #E5E5E5;
+    border: 2px solid #555555;
+    
+}
+
+.cursos {
+    position: absolute;
+    width: 1440px;
+    height: 730px;
+    left: 0px;
+    top: 829px;
+    
+    background: #F7F7F7;
+}
+
+.iniciantes {
+    position: absolute;
+    width: 344px;
+    height: 504px;
+    left: 128px;
+    top: 938px;
+}
+
+.poupando {
+    position: absolute;
+    width: 293px;
+    height: 502px;
+    left: 593px;
+    top: 938px;
+}
+
+.independencia {
+    position: absolute;
+    width: 304px;
+    height: 502px;
+    left: 1007px;
+    top: 938px;
+}
