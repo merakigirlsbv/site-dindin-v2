@@ -1,38 +1,47 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
-    background: #E5E5E5;
-    margin: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    font-family: ubuntu;
 }
 
 header {
- background: #2E948A;
- padding: 20px 85px;
-display: flex;
-align-items: center; 
-justify-content: space-between;
-}
-
-.header-navigation > a { 
-   color: #FDFDFD;
-   text-transform: uppercase;
-   text-decoration:none;
-   font-size: 20px;
-   font-weight: bold;
-   margin-right: 37px;
-}
-
-.header-navigation > a:last-of-type {
-    margin-right: 0;
-}
-
-
+    background: #2E948A;
+    padding: 20px 85px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+   }
+   
+   .header-navigation > a { 
+      color: #FDFDFD;
+      text-transform: uppercase;
+      text-decoration:none;
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 37px;
+   }
+   
+   .header-navigation > a:last-of-type {
+       margin-right: 0;
+   }
 
 .banner {
     position: absolute;
-    width: 1028px;
+    width: 1012px;
     height: 521px;
     left: 206px;
     top: 242px;
+}
+
+.textbanner{
+    position: absolute;
+    width: 464px;
+    height: 346px;
+    left: -216px;
+    top: -240px;
 }
 
 .title {
@@ -53,8 +62,8 @@ justify-content: space-between;
 
 .pbanner {
     position: absolute;
-    width: 462px;
-    height: 62px;
+    width: 442px;
+    height: auto;
     left: 207px;
     top: 477px;
 
@@ -69,6 +78,20 @@ justify-content: space-between;
 
 .wantmore {
     position: absolute;
+    width: 216px;
+    height: 20.27px;
+    left: 233px;
+    top: 585.5px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    
+    color: #FF4081;
+
+    position: absolute;
     width: 268px;
     height: 51px;
     left: 207px;
@@ -77,6 +100,7 @@ justify-content: space-between;
     border: 2px solid #FF4081;
     box-sizing: border-box;
     border-radius: 62px;
+    background-color: #FFFFFF;
 }
 
 .imgbanner {
@@ -85,41 +109,239 @@ justify-content: space-between;
     right: 14.31%;
     top: 7.88%;
     bottom: 76.13%;
-    background: #E5E5E5;
-    border: 2px solid #555555;
+    
+    border: 2px solid #FFFFFF;
     
 }
 
 .cursos {
     position: absolute;
-    width: 1440px;
-    height: 730px;
+    width: 100%;
+    height: 726px;
     left: 0px;
     top: 829px;
-    
+    bottom: 256px;
     background: #F7F7F7;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 2;
 }
 
 .iniciantes {
-    position: absolute;
     width: 344px;
     height: 504px;
     left: 128px;
     top: 938px;
 }
 
+.imginiciantes{
+    width: 242px;
+    height: auto;
+    left: 10.83%;
+    right: 69.17%;
+    top: 29.34%;
+    bottom: 62.21%;
+    
+    background: #F7F7F7;    
+}
+
+.title2{
+    width: 344px;
+    height: 29px;
+    left: 128px;
+    top: 1253px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FF4081;
+}
+
+.paragrafo1{
+    width: 293px;
+    height: 60px;
+    left: 154px;
+    top: 1305px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.botao1{
+
+    width: 233px;
+    height: 51px;
+    left: 184px;
+    top: 1391px;
+    color: #FFFFFF;
+    border: #FFFFFF;   
+    background: #FF4081;
+    border-radius: 62px;
+
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
 .poupando {
-    position: absolute;
     width: 293px;
     height: 502px;
     left: 593px;
     top: 938px;
 }
 
+.imgpoupando{
+    width: 238px;
+    height: auto;
+    left: 10.83%;
+    right: 69.17%;
+    top: 29.34%;
+    bottom: 62.21%;
+    
+    background: #F7F7F7;    
+}
+
+.title3{
+    width: 344px;
+    height: 29px;
+    left: 128px;
+    top: 1253px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FF4081;
+}
+
+.paragrafo2{
+    width: 293px;
+    height: 60px;
+    left: 154px;
+    top: 1305px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.botao2{
+    width: 233px;
+    height: 51px;
+    left: 184px;
+    top: 1391px;
+    color: #FFFFFF;
+    border: #FFFFFF;    
+    background: #FF4081;
+    border-radius: 62px;
+
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
 .independencia {
-    position: absolute;
     width: 304px;
     height: 502px;
     left: 1007px;
     top: 938px;
+}
+
+.imgindependencia{
+    width: 184px;
+    height: auto;
+    left: 10.83%;
+    right: 69.17%;
+    top: 29.34%;
+    bottom: 62.21%;
+    
+    background: #F7F7F7;    
+}
+
+.title4{
+    width: 344px;
+    height: 29px;
+    left: 128px;
+    top: 1253px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.paragrafo3{
+    width: 293px;
+    height: 60px;
+    left: 154px;
+    top: 1305px;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.botao3{
+    width: 233px;
+    height: 51px;
+    left: 184px;
+    top: 1391px;
+    color: #FFFFFF;
+    border: #FFFFFF;
+    background: #FF4081;
+    border-radius: 62px;
+
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    
 }
