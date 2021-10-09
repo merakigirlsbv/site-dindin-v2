@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    font-family: ubuntu;
+}
+
+header {
+    background: #2E948A;
+    padding: 20px 85px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+   }
+   
+   .header-navigation > a { 
+      color: #FDFDFD;
+      text-transform: uppercase;
+      text-decoration:none;
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 37px;
+   }
+   
+   .header-navigation > a:last-of-type {
+       margin-right: 0;
+   }
+
+.content-curso {
+    position: absolute;
+    width: 1440px;
+    height: 1235px;
+    left: 0px;
+    top: 659px;
+    background: #F7F7F7;
+}
+
+.banner-title {
+    position: absolute;
+    width: 512px;
+    height: 126px;
+    left: 202px;
+    top: 175px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 70px;
+    color: #FF4081;
+}
+
+.banner-conteudo {
+    position: absolute;
+    width: 580px;
+    height: 100px;
+    left: -202px;
+    top: -358px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #000000;
+}
+
+.banner-conteudo {
+    left: 52.15%;
+    right: 21.46%;
+    top: 9.38%;
+    bottom: 72.49%;
+    display:flex;
+}
+
+.column-1 {
+    position: absolute;
+    width: 1440px;
+    height: 1235px;
+    left: 0px;
+    top: 659px;
+    background: #F7F7F7;
+}
+
+.content-post-1 {
+    position: absolute;
+    width: 462px;
+    height: 261px;
+    left: 213px;
+    top: 734px;
+    border: 3px solid #8E8E8E;
+    box-sizing: border-box;
+}
+
+.postaula1 {
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 751px;
+    top: 734px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;    
+}
+
+.content-post-1 p {
+    position: absolute;
+    width: 501px;
+    height: 195px;
+    left: 751px;
+    top: 800px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
