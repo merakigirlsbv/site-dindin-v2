@@ -48,24 +48,21 @@ header {
     margin:-5px;
 }
 
-.containe-curso {
+.banner-2 {
+    position: absolute;
     width: 2000px;
     height: 1235px;
     left: 0px;
     top: 659px;
     background: #F7F7F7;
-    position:absolute;
-}
-.column-curso{
-    border-bottom: 1px solid;
     font-size: 22px;
 }
 
-.containe-curso > div {
+.banner-2 > div {
     width: 100%
 }
 
-.containe-post1-title, .containe-post2-title, .containe-post3-title {
+.banner-title1, .banner-title2, .banner-title3 {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
@@ -75,7 +72,7 @@ header {
 }
 
 .hr{
-    border: 0;
+    border: 10px;
     border-top: 3px solid;
     background: #C4C4C4;
 }
