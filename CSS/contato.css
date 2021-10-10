@@ -1,0 +1,53 @@
+.banner-title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF4081;
+    margin:-5px;
+}
+
+.forms{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.form-box{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+
+    position: relative;
+    left: 0.6%;
+    right: 0%;
+    top: 21.48%;
+    bottom: 70.88%;
+
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+}
+
+.button_submit{
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    background: #FF4081;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 32px;
+
+    
+    
+}
