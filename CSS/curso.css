@@ -28,97 +28,55 @@ header {
        margin-right: 0;
    }
 
-.content-curso {
-    position: absolute;
+.banner {
+    display: flex;
+    gap: 5rem;
     width: 1440px;
-    height: 1235px;
-    left: 0px;
-    top: 659px;
-    background: #F7F7F7;
+    font-size: 22px;
+}
+
+.banner > div {
+    width: 100%;
 }
 
 .banner-title {
-    position: absolute;
-    width: 512px;
-    height: 126px;
-    left: 202px;
-    top: 175px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
-    font-size: 38px;
-    line-height: 70px;
+    font-size: 86px;
     color: #FF4081;
+    margin:-5px;
 }
 
-.banner-conteudo {
-    position: absolute;
-    width: 580px;
-    height: 100px;
-    left: -202px;
-    top: -358px;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 300px;
-    font-size: 20px;
-    line-height: 23px;
-    align-items: center;
-    color: #000000;
-}
-
-.banner-conteudo {
-    left: 52.15%;
-    right: 21.46%;
-    top: 9.38%;
-    bottom: 72.49%;
-    display:flex;
-}
-
-.column-1 {
-    position: absolute;
-    width: 1440px;
+.containe-curso {
+    width: 2000px;
     height: 1235px;
     left: 0px;
     top: 659px;
     background: #F7F7F7;
+    position:absolute;
+}
+.column-curso{
+    border-bottom: 1px solid;
+    font-size: 22px;
 }
 
-.content-post-1 {
-    position: absolute;
-    width: 462px;
-    height: 261px;
-    left: 213px;
-    top: 734px;
-    border: 3px solid #8E8E8E;
-    box-sizing: border-box;
+.containe-curso > div {
+    width: 100%
 }
 
-.postaula1 {
-    position: absolute;
-    width: 512px;
-    height: 40px;
-    left: 751px;
-    top: 734px;
+.containe-post1-title, .containe-post2-title, .containe-post3-title {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 40px;
-    color: #FF4081;    
+    color: #FF4081;
 }
 
-.content-post-1 p {
-    position: absolute;
-    width: 501px;
-    height: 195px;
-    left: 751px;
-    top: 800px;
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 23px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+.hr{
+    border: 0;
+    border-top: 3px solid;
+    background: #C4C4C4;
 }
+ 
