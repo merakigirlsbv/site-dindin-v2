@@ -7,10 +7,15 @@
     margin:-5px;
 }
 
-.forms{
+.container{
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    width: 90%;
+    padding:100px;
+    display: flex;
+}
+.forms{
+    width: 100%;
+    display: flex;
 }
 
 .form-box{
@@ -18,22 +23,22 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
-    width: 100%;
-
-    position: relative;
-    left: 0.6%;
-    right: 0%;
-    top: 21.48%;
-    bottom: 70.88%;
-
+    line-height: 18px;
+    width: 95%;
+    padding: 10px 15px;
     background: #FFFFFF;
     border: 1px solid #686868;
     box-sizing: border-box;
     border-radius: 7px;
-
+    margin: 7px;
 }
 
+.banner-title{
+    height: 80px;
+}
+#imagem-contato{
+    width: 95%;    
+}
 .button_submit{
 
     font-family: Ubuntu;
@@ -41,13 +46,12 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
+    position:static;
 
     background: #FF4081;
     border-radius: 50px;
     border: none;
     color: #FFFFFF;
-    padding: 8px 32px;
-
-    
+    padding: 8px 32px;   
     
 }
