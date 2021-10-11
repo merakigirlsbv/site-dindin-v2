@@ -2,14 +2,29 @@ html {
   scroll-behavior: smooth;
 }
 
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
+}
+
 body {
   width: 100%;
-  font-family: "Ubuntu";
-
   margin: 0;
   background: #ffffff;
   box-sizing: border-box;
-  font-family: "Ubuntu";
+  font-size: 16px;
+}
+
+body,
+a,
+button,
+ipunt {
+  font-family: "Ubuntu", sans-serif;
 }
 
 header {
@@ -39,7 +54,8 @@ header a:hover {
 
 .banner {
   display: flex;
-  width: 100vw;
+  justify-content: center;
+  width: 100%;
   height: 500px;
   margin: 1rem 0;
 }
@@ -51,9 +67,12 @@ header a:hover {
   padding: 2rem;
 }
 
+.banner .textbanner .title {
+  width: 28rem;
+  font-weight: 800;
+}
+
 .banner .img-banner {
-  display: grid;
-  place-content: center;
   width: 50%;
   height: 100%;
 }
@@ -64,7 +83,6 @@ header a:hover {
 
 .title {
   border-radius: undefinedpx;
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
@@ -76,7 +94,6 @@ header a:hover {
 .pbanner {
   width: 442px;
   height: auto;
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: normal;
   font-size: 27px;
@@ -86,8 +103,6 @@ header a:hover {
 }
 
 .wantmore {
-  font-family: "Ubuntu";
-
   font-size: 27px;
   line-height: 31px;
 
@@ -146,7 +161,6 @@ header a:hover {
   left: 128px;
   top: 1253px;
 
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -164,7 +178,6 @@ header a:hover {
   left: 154px;
   top: 1305px;
 
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
@@ -184,7 +197,6 @@ header a:hover {
   background: #ff4081;
   border-radius: 62px;
 
-  font-family: "Ubuntu";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -217,7 +229,6 @@ header a:hover {
   left: 128px;
   top: 1253px;
 
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -235,7 +246,6 @@ header a:hover {
   left: 154px;
   top: 1305px;
 
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
@@ -255,7 +265,6 @@ header a:hover {
   background: #ff4081;
   border-radius: 62px;
 
-  font-family: Ubuntu;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -288,7 +297,6 @@ header a:hover {
   left: 128px;
   top: 1253px;
 
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -303,7 +311,6 @@ header a:hover {
   left: 154px;
   top: 1305px;
 
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
@@ -323,7 +330,6 @@ header a:hover {
   background: #ff4081;
   border-radius: 62px;
 
-  font-family: "Ubuntu";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -498,7 +504,6 @@ header a:hover {
   left: 128px;
   top: 2351px;
 
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -514,7 +519,6 @@ header a:hover {
   top: 2671px;
   display: flex;
 
-  font-family: "Ubuntu";
   font-style: normal;
   font-weight: bold;
   font-size: 27px;

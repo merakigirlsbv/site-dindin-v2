@@ -1,0 +1,57 @@
+.banner-title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF4081;
+    margin:-5px;
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+    padding:100px;
+    display: flex;
+}
+.forms{
+    width: 100%;
+    display: flex;
+}
+
+.form-box{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    width: 95%;
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: 7px;
+}
+
+.banner-title{
+    height: 80px;
+}
+#imagem-contato{
+    width: 95%;    
+}
+.button_submit{
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    position:static;
+
+    background: #FF4081;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 32px;   
+    
+}
