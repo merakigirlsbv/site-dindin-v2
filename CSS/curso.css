@@ -11,33 +11,6 @@ body {
     box-sizing: border-box;
 }
 
-header {
-    background: #2E948A;
-    padding: 20px 85px;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-   }
-   
-   .header-navigation > a { 
-      color: #FDFDFD;
-      text-transform: uppercase;
-      text-decoration:none;
-      font-size: 20px;
-      font-weight: bold;
-      margin-right: 37px;
-   }
-   
-   .header-navigation > a:last-of-type {
-       margin-right: 0;
-   }
-
-@media (max-width: 1080px) {
-  .page-curso {
-    flex-wrap: wrap;
-  }
-}
-
 .page-curso-intro {
     padding: 80px 98px;
 }
