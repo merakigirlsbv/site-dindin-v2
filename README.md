@@ -47,4 +47,8 @@ Thays Santos Motta Guerreiro
 ---
 ### O site
 ### Modelo Entidade Relacionamento (MER)
+
+<p align="center">
+        <img src="assets/MER.png">
+</p>
 ### Metodologia Ágil - Kanban
