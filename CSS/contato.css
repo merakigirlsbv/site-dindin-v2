@@ -10,13 +10,15 @@
 .container{
     margin: auto;
     width: 90%;
-    padding:100px;
+    padding: 100px;
     display: flex;
+    margin-left: 60px;
 }
 .forms{
-    width: 80%;
+    width: 493px;
     display: flex;
     margin-right: 100px;
+    margin-top: 40px;
 }
 
 .form-box{
@@ -31,24 +33,28 @@
     border: 1px solid #686868;
     box-sizing: border-box;
     border-radius: 7px;
-    margin: 7px;
+    margin: 7px 0px;
+}
+
+#message{
+height: 150px;
 }
 
 .banner-title{
     height: 80px;
 }
 #imagem-contato{
-    height: 80%;
+    height: 95%;
+    margin-left: 80px;
 }
 .button_submit{
 
-    font-family: Ubuntu;
+    font-family: Nunito;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 16px;
     line-height: 22px;
     position:static;
-
     background: #FF4081;
     border-radius: 50px;
     border: 2px solid;
@@ -61,4 +67,13 @@
     background: #FFFFFF;
     color: #FF4081;
     border: 2px solid #FF4081;
+  }
+
+  @media screen and (max-width: 767px) {
+    #imagem-contato {
+      display: none;
+    }
+    .container{
+        margin: auto;
+    }
   }
