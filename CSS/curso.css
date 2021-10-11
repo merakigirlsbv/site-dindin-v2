@@ -7,73 +7,99 @@ body {
     font-family: ubuntu;
 }
 
-header {
-    background: #2E948A;
-    padding: 20px 85px;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-   }
-   
-   .header-navigation > a { 
-      color: #FDFDFD;
-      text-transform: uppercase;
-      text-decoration:none;
-      font-size: 20px;
-      font-weight: bold;
-      margin-right: 37px;
-   }
-   
-   .header-navigation > a:last-of-type {
-       margin-right: 0;
-   }
+*{
+    box-sizing: border-box;
+}
+
+.page-curso-intro {
+    padding: 80px 98px;
+}
 
 .banner {
     display: flex;
-    gap: 5rem;
-    width: 1440px;
+    justify-content: space-around;
     font-size: 22px;
 }
 
-.banner > div {
-    width: 100%;
+.banner-container {
+    margin-right: 80px;
+    max-width: 512px;
 }
 
 .banner-title {
-    font-family: Ubuntu;
+    font-family: "Ubuntu";
     font-style: normal;
     font-weight: bold;
-    font-size: 86px;
+    font-size: 68px;
     color: #FF4081;
-    margin:-5px;
+}
+
+.page-curso {
+    background: #F7F7F7;
+    padding: 0 98px;
+}
+
+.curso-aula {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #C4C4C4;
+    padding: 75px 90px;
+}
+
+.curso-aula .curso-iframe {
+    margin-right: 70px;
 }
 
 .banner-2 {
-    position: absolute;
-    width: 2000px;
-    height: 1235px;
-    left: 0px;
-    top: 659px;
-    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
     font-size: 22px;
+    padding: 100px 0 0;
 }
 
-.banner-2 > div {
-    width: 100%
-}
-
-.banner-title1, .banner-title2, .banner-title3 {
-    font-family: Ubuntu;
+.banner-title-2 {
+    font-family: "Ubuntu";
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
-    line-height: 40px;
     color: #FF4081;
 }
 
-.hr{
-    border: 10px;
-    border-top: 3px solid;
-    background: #C4C4C4;
+@media only screen and (max-width: 1024px)  {
+    .banner > .banner-container {
+        margin-right: 0;
+    }
+    .banner > .banner-img {
+        display: none;
+    }
+
+    .banner-2 .curso-aula {
+        flex-direction: column;
+        margin-right: 0;
+        padding: 30px 16px;
+    }
+
+    .banner-2 .banner-iframe {
+        margin: 0;
+    }
 }
- 
+
+@media only screen and (max-width: 368px)  {
+    .banner > .banner-container {
+        margin-right: 0;
+    }
+    .banner > .banner-img {
+        display: none;
+    }
+
+    .banner-2 .curso-aula {
+        flex-direction: column;
+        margin-right: 0;
+        padding: 30px 16px;
+    }
+
+    .banner-2 .banner-iframe {
+        margin: 0;
+    }
+}
