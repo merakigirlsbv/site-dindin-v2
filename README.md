@@ -1,5 +1,10 @@
 # <pra.elas> Grupo Meraki Girls
 
+![HTML 5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS 3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![GitHub repo size](https://img.shields.io/github/repo-size/merakigirlsbv/site-dindin-v2?logo=GitHub)
+![GitHub last commit](https://img.shields.io/github/last-commit/merakigirlsbv/site-dindin-v2?logo=GitHub)
+
 Projeto desenvolvido para a Gama Academy em parceria com o Banco BV.
 
 Desenvolvimento de uma plataforma de conteúdo sobre Educação Financeira (HTML + CSS) para a empresa fictícia 'dindin' a partir do design fornecido (Figma), com a utilização de metodologias ágeis durante a organização e execução do projeto.
