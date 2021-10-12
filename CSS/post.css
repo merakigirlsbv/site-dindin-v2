@@ -4,88 +4,115 @@ body {
     margin: 0;
     background: #FFFFFF;
     box-sizing: border-box;
-    font-family: ubuntu;
+    font-family: "ubuntu";
 }
 
-*{
-    box-sizing: border-box;
+.post-cont{
+    gap: 39px;
+    margin: 125px 0 66px;
+    text-align: justify;
 }
 
+.post-cont > div {
+    max-width: 100%;
+}
 
-.banner-post {
+.post-title {
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 37px;
-
-    align-items: center;
+    text-align: center;
 
     color: #FF4081;
 }
 
-.banner-date {
+.post-date {
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
-
-    align-items: center;
-
+    text-align: center;
+    
     color: #9D9D9D;
 }
 
 
-.rectangle-2{
-    width: 1032px;
+.rectangle-3 {
+    width: 75%;
     height: 465px;
     background: #c4c4c4;
-
-    display: flex;
-    align-items: center;
+    margin: 20px 0 60px 204px;  
 }
 
-.container-title-2 {
+.post-title-2 > h5 {
+    font-size: 18px;
+    color: #009688;
+}
+
+
+.collumn-post > .text-post-1 {
+    max-width: 75%;
+  }
+
+.collumn-post > .text-post-1 > p {
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
+    text-align: justify;
+    margin: 20px 0 60px 204px;  
 
-    background: #419488;
+    color: #000000;
 }
 
-
-.banner-post-2 {
-    max-width: 1087px;
-    margin: auto;
+.textcursos-post2 {
+    padding: 119px 0 0;
 }
 
 .post-titulo-2 {
+    max-width: 100%;
+    margin: auto;
+}
+
+.post-titulo-2 > h1 {
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
     line-height: 57px;
-    align-items: center;
+    text-align: center;
     color: #FF4081;
+    margin: 0;
 }
 
-.banner-post-2 {
+.textcursos-post2 {
+    background: #F7F7F7;
+    padding: 80px 0;
+}
+
+.container-post {
+    width: 75%;
+    text-align: justify;
+    margin: 20px 0 60px 204px;  
+}
+
+.conheça-post-2 {
     display: flex;
     gap: 40px;
     justify-content: center;
-    padding: 109px 0;
-    background: #F7F7F7;
+    padding: 80px 0 50px 0;
 }
   
-.banner-post-2 > div {
+.conheça-post-2 > div {
     width: 100%;
     text-align: center;
 }
   
-.banner-post-2 > div > h3 {
+.conheça-post-2 > div > h3 {
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: bold;
@@ -93,13 +120,13 @@ body {
     color: #FF4081;
 }
   
-.banner-post-2 > div > p {
+.conheça-post-2 > div > p {
    font-family: "Ubuntu";
    font-size: 17px;
    margin-bottom: 41px;
 }
   
-.banner-post-2 > div > .banner-button {
+.conheça-post-2 > div > .post-button {
     background: #FF4081;
     color: white;
     border-radius: 62px;
@@ -110,7 +137,7 @@ body {
     transition: 0.2s ease-in-out;
 }
   
-.banner-post-2 .banner-button:hover {
+.conheça-post-2 .post-button:hover {
     background: white;
     color:#FF4081;
     border: 2px solid#FF4081;
@@ -127,4 +154,4 @@ body {
 
 
 
-
+ 
