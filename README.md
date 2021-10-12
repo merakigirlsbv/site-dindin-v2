@@ -50,5 +50,8 @@ Thays Santos Motta Guerreiro
 
 <p align="center">
         <img src="assets/MER.png">
+        <a href= https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=999999&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1eGzFR5k-5BrPXM_EiSq4cIz4g6IACrh9%26export%3Ddownload> Link MER </a>
+    
 </p>
+
 ### Metodologia Ágil - Kanban
