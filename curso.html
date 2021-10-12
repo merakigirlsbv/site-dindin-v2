@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Curso Dindin</title>
+</head>
+<body>
     <header>
         <div class="logo">
             <a href="/"><img src="./assets/dindin-imagens/logo-header.png" alt="logotipo dindin branco">
@@ -28,6 +30,26 @@
                 contato
             </a>
         </nav>
+
+        <div class="btn-menu-mobile">
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+        </div>
+
+        <div class="menu-mobile">
+            <nav class="header-navigation">
+                <a href="./cursos.html">
+                    cursos
+                </a>
+                <a href="./blog.html">
+                    blog
+                </a>
+                <a href="./contato.html">
+                    contato
+                </a>
+            </nav>
+        </div>
     </header>
     <section class="page-curso-intro">
         <div class="banner">
@@ -129,7 +151,22 @@
             <a href="#">aqui tem outro link</a>
         </div>
     </footer>
-    
+    <script>
+        const btn = document.querySelector('.btn-menu-mobile')
+        const menuMobile = document.querySelector('.menu-mobile')
+        btn.addEventListener('click', (event) => {
+            event.preventDefault();
+            if (!menuMobile.classList.contains('active')) {
+                btn.classList.add('show-close-btn');
+                menuMobile.classList.add('active');
+                menuMobile.style.display = 'block';
+                return
+            }
+            menuMobile.style.display = 'none';
+            btn.classList.remove('show-close-btn');
+            menuMobile.classList.remove('active');
+        })
+    </script>    
 </body>
 
 </html>

@@ -7,9 +7,9 @@ body {
     font-family: ubuntu;
 }
 
-*{
+/**{
     box-sizing: border-box;
-}
+}*/
 
 .page-curso-intro {
     padding: 80px 98px;
