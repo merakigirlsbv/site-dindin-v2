@@ -44,14 +44,33 @@ Thays Santos Motta Guerreiro
 
 
 ## Desenvolvimento
----
-### O site
-### Modelo Entidade Relacionamento (MER)
+
+ O site Dindin foi desenvolvido em HTLM + CSS, a partir do layout oferecido, atendendo os requisitos de responsividade para Desktop, Tablets e Smartphones.
+
+
+## O site
+
+Página disponivel em: <a href= "https://merakigirlsbv.github.io/site-dindin-v2/"> Site Dindin </a>
+
+
+## Modelo Entidade Relacionamento (MER)
+
+O MER estabelece relacionamento entre os elementos do site e a organização do banco de dados, o diagrama abaixo foi criado priorizando informações sobre cursos, posts do blog e depoimentos de leads.
+Considerando que se trata de uma plataforma de aulas online, também verificamos a necessidade do controle de informações de cadastro dos alunos, aulas em que estão matriculados e seu progresso no curso. 
 
 <p align="center">
-        <img src="assets/MER.png">
-        <a href= https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=999999&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1eGzFR5k-5BrPXM_EiSq4cIz4g6IACrh9%26export%3Ddownload> Link MER </a>
+        <img style= "width: 60%" src="assets/MER.png">
+        <br> <a href= "https://viewer.diagrams.net/?tags=%7B%7D&target=blank&highlight=999999&edit=_blank&layers=1&nav=1&title=Untitled%20Diagram.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1eGzFR5k-5BrPXM_EiSq4cIz4g6IACrh9%26export%3Ddownload"> Link MER </a>
     
 </p>
 
-### Metodologia Ágil - Kanban
+## Metodologia Ágil - Kanban
+
+A organização do grupo foi feita através do método Kanban, pela utilização de cards na plataforma "Trello". Inicialmente foi definido um Backlog e a partir dele o grupo designou as tarefas para cada integrante e seguiu com as etapas: To Do, Doing, Code Review, Testing e Done. 
+
+Para acompanhar o board no Trello, acesse o site: <a href= "https://trello.com/b/MG4a5lm9"> Kanban </a>
+
+
+## Links Úteis
+
+Encontre todos os links relacionados ao projeto <a href= "https://linktr.ee/MerakiGirlsBV"> aqui. 
