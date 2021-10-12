@@ -270,13 +270,11 @@ header a:hover {
 .placeholder:hover {
   background: #ffffff;
   color: #c4c4c4;
-  /* border: 2px solid #c4c4c4; */
 }
 
 footer {
   display: flex;
   background: #2e948a;
-  /* height: 12.9rem; */
   padding: 30px 98px;
   align-items: center;
   justify-content: space-between;
@@ -284,7 +282,6 @@ footer {
 
 footer .logo {
   width: fit-content;
-  /* margin-left: 8rem; */
   height: auto;
 }
 
@@ -327,8 +324,8 @@ footer a {
 footer .btn-footer {
   display: grid;
   place-content: center;
-  /* margin-right: 8.5rem; */
 }
+
 footer .btn-footer a:nth-child(2) {
   margin-top: 13px;
 }
