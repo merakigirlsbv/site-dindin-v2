@@ -139,5 +139,21 @@
           <a href="#">aqui tem outro link</a>
       </div>
   </footer>
+  <script>
+    const btn = document.querySelector('.btn-menu-mobile')
+    const menuMobile = document.querySelector('.menu-mobile')
+    btn.addEventListener('click', (event) => {
+        event.preventDefault();
+        if (!menuMobile.classList.contains('active')) {
+            btn.classList.add('show-close-btn');
+            menuMobile.classList.add('active');
+            menuMobile.style.display = 'block';
+            return
+        }
+        menuMobile.style.display = 'none';
+        btn.classList.remove('show-close-btn');
+        menuMobile.classList.remove('active');
+    })
+</script>
   </body>
 </html>
