@@ -64,11 +64,18 @@ header {
   color: #000000;
 }
 
-.rectangle{
-  border: 1px solid #c4c4c4;
-  width: 518px;
-  height: 259px;
-  box-shadow: #fdfdfd;
+.rectangle2 {
+  width: 516px;
+  height: 258px;
+  background: #c4c4c4;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.rectangle2:hover {
+  background: #FFFFFF;
+  color: #c4c4c4;
+  border: 2px solid #c4c4c4;
 }
 .content-img{
   width: 405px;
