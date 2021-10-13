@@ -1,15 +1,3 @@
-body {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0;
-  background: #ffffff;
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
 .banner-title {
   font-family: "Ubuntu";
   font-style: normal;
@@ -31,7 +19,7 @@ body {
   margin: 6%;
 }
 .container > div > img {
-  width: auto;
+  width: fit-content;
 }
 
 .forms {
@@ -85,15 +73,21 @@ body {
   color: #ff4081;
   border: 2px solid #ff4081;
 }
-
+/* hhhhhuhu*/
 @media screen and (max-width: 998px) {
   #imagem-contato {
-    display: none;
+    width: 70%;
   }
   .container {
     margin: auto;
   }
   .container > div {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #imagem-contato {
+    display: none;
   }
 }
