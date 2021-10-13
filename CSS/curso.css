@@ -66,6 +66,22 @@ body {
     color: #FF4081;
 }
 
+@media screen and (max-width: 2560px)  {
+    .banner > .banner-container {
+        margin-right: 0;
+    }
+
+    .banner-2 .curso-aula {
+        flex-direction: column;
+        margin-right: 0;
+        padding: 30px 16px;
+    }
+
+    .banner-2 .banner-iframe {
+        margin: 0;
+    }
+}
+
 @media only screen and (max-width: 1024px)  {
     .banner > .banner-container {
         margin-right: 0;

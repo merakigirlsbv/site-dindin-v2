@@ -142,7 +142,148 @@ body {
     color:#FF4081;
     border: 2px solid#FF4081;
 }
-  
+
+@media screen and (max-width: 1024px) {
+   
+
+    .rectangle-3{
+        margin: auto;
+    }
+
+    .container-post{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .post-title-right{
+        font-size: 38px;
+    }
+    
+    .post-date{
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+    .rectangle-3{
+        display: flex;
+        width: 60%;
+        margin: 0 21%;
+    }
+
+    .container-post{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: 8% 14%;
+    }
+
+   .post-titulo-2{
+       display: flex;
+       flex-wrap: wrap;
+       width: 250px;
+   }
+
+   .conheça-post-2{
+    flex-wrap: wrap;
+   }
+}
+
+@media screen and (max-width: 425px) {
+    .post-title-right{
+        font-size: 42px;
+    }
+    
+    .post-date{
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+    .rectangle-3{
+        display: none;
+    }
+
+    .container-post{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: 52px;
+    }
+
+   .post-titulo-2{
+       display: flex;
+       flex-wrap: wrap;
+       width: 250px;
+   }
+
+   .conheça-post-2{
+    flex-wrap: wrap;
+   }
+}
+
+@media screen and (max-width: 375px) {
+    .post-title-right{
+        font-size: 42px;
+    }
+    
+    .post-date{
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+    .rectangle-3{
+        display: none;
+    }
+
+    .container-post{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: 52px;
+    }
+
+   .post-titulo-2{
+       display: flex;
+       flex-wrap: wrap;
+       width: 250px;
+   }
+
+   .conheça-post-2{
+    flex-wrap: wrap;
+   }
+}
+
+@media screen and (max-width: 320px) {
+    .post-title-right{
+        font-size: 42px;
+    }
+    
+    .post-date{
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+    .rectangle-3{
+        display: none;
+    }
+
+    .container-post{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: 52px;
+    }
+
+   .post-titulo-2{
+       display: flex;
+       flex-wrap: wrap;
+       width: 250px;
+   }
+
+   .conheça-post-2{
+    flex-wrap: wrap;
+   }
+}
 
 
 
@@ -150,8 +291,3 @@ body {
 
 
 
-
-
-
-
- 
