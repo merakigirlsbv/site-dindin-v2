@@ -95,7 +95,7 @@ header a:hover {
   position: absolute;
   background: #2e948a;
   width: 100%;
-  top: 115px;
+  top: 90px;
   left: 0;
   display: none;
 }
@@ -433,6 +433,6 @@ footer .btn-footer a:hover {
 
   footer {
     flex-direction: column;
-    padding: 0 16px;
+    padding: 30px 16px;
   }
 }

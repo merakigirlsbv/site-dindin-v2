@@ -1,105 +1,111 @@
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    background: #FFFFFF;
-    box-sizing: border-box;
-    font-family: ubuntu;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #ffffff;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 .page-curso-intro {
-    padding: 80px 98px;
+  padding: 80px 98px;
 }
 
 .banner {
-    display: flex;
-    justify-content: space-around;
-    font-size: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
 }
 
 .banner-container {
-    margin-right: 80px;
-    max-width: 512px;
+  max-width: 512px;
 }
 
 .banner-title {
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 68px;
-    color: #FF4081;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 68px;
+  color: #ff4081;
 }
 
 .page-curso {
-    background: #F7F7F7;
-    padding: 0 98px;
+  background: #f7f7f7;
+  padding: 0 98px;
 }
 
 .curso-aula {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 3px solid #C4C4C4;
-    padding: 75px 90px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid #c4c4c4;
 }
 
-.curso-aula .curso-iframe {
-    margin-right: 70px;
+.curso-aula:last-of-type {
+  border-bottom: none;
+}
+
+.curso-aula p {
+  max-width: 500px;
 }
 
 .banner-2 {
-    display: flex;
-    flex-direction: column;
-    font-size: 22px;
-    padding: 100px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+  padding: 100px 0 0;
 }
 
 .banner-title-2 {
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    color: #FF4081;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: #ff4081;
 }
 
-@media only screen and (max-width: 1024px)  {
-    .banner > .banner-container {
-        margin-right: 0;
-    }
-    .banner > .banner-img {
-        display: none;
-    }
+@media only screen and (max-width: 1080px) {
+  .page-curso-intro {
+    padding: 40px;
+  }
+  .banner > .banner-container {
+    margin-right: 0;
+  }
 
-    .banner-2 .curso-aula {
-        flex-direction: column;
-        margin-right: 0;
-        padding: 30px 16px;
-    }
+  .banner-title {
+    font-size: 45px;
+  }
 
-    .banner-2 .banner-iframe {
-        margin: 0;
-    }
-}
+  .banner > .banner-img {
+    display: none;
+  }
 
-@media only screen and (max-width: 368px)  {
-    .banner > .banner-container {
-        margin-right: 0;
-    }
-    .banner > .banner-img {
-        display: none;
-    }
+  .banner-2 .curso-aula {
+    flex-direction: column;
+    margin: 30px 0;
+  }
 
-    .banner-2 .curso-aula {
-        flex-direction: column;
-        margin-right: 0;
-        padding: 30px 16px;
-    }
+  .banner-2 > .curso-aula > .curso-iframe {
+    max-width: 100%;
+  }
 
-    .banner-2 .banner-iframe {
-        margin: 0;
-    }
+  .banner-2 > .curso-aula > .curso-iframe iframe {
+    width: 100%;
+  }
+  .banner-2 .banner-iframe {
+    margin: 0;
+  }
+  .page-curso {
+    padding: 40px 16px;
+  }
+  .btn-menu-mobile {
+    width: 30px;
+  }
 }

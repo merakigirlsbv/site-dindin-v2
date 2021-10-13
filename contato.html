@@ -10,49 +10,51 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
   <title>Contato Dindin</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="./index.html"><img src="./assets/dindin-imagens/logo-header.png" alt="logotipo dindin branco">
-            </a>
-        </div>
+  <header>
+    <div class="logo">
+      <a href="./index.html"><img src="./assets/dindin-imagens/logo-header.png" alt="logotipo dindin branco">
+      </a>
+    </div>
 
-        <nav class="header-navigation">
-            <a href="./cursos.html">
-                cursos
-            </a>
-            <a href="./blog.html">
-                blog
-            </a>
-            <a href="./contato.html">
-                contato
-            </a>
-        </nav>
+    <nav class="header-navigation">
+      <a href="./cursos.html">
+        cursos
+      </a>
+      <a href="./blog.html">
+        blog
+      </a>
+      <a href="./contato.html">
+        contato
+      </a>
+    </nav>
 
-        <div class="btn-menu-mobile">
-            <span class="btn-line"></span>
-            <span class="btn-line"></span>
-            <span class="btn-line"></span>
-        </div>
+    <div class="btn-menu-mobile">
+      <span class="btn-line"></span>
+      <span class="btn-line"></span>
+      <span class="btn-line"></span>
+    </div>
 
-        <div class="menu-mobile">
-            <nav class="header-navigation">
-                <a href="./cursos.html">
-                    cursos
-                </a>
-                <a href="./blog.html">
-                    blog
-                </a>
-                <a href="./contato.html">
-                    contato
-                </a>
-            </nav>
-        </div>
-    </header>
+    <div class="menu-mobile">
+      <nav class="header-navigation">
+        <a href="./cursos.html">
+          cursos
+        </a>
+        <a href="./blog.html">
+          blog
+        </a>
+        <a href="./contato.html">
+          contato
+        </a>
+      </nav>
+    </div>
+  </header>
   <main>
     <div class="container">
       <div class="forms">
@@ -90,17 +92,18 @@
     const btn = document.querySelector('.btn-menu-mobile')
     const menuMobile = document.querySelector('.menu-mobile')
     btn.addEventListener('click', (event) => {
-        event.preventDefault();
-        if (!menuMobile.classList.contains('active')) {
-            btn.classList.add('show-close-btn');
-            menuMobile.classList.add('active');
-            menuMobile.style.display = 'block';
-            return
-        }
-        menuMobile.style.display = 'none';
-        btn.classList.remove('show-close-btn');
-        menuMobile.classList.remove('active');
+      event.preventDefault();
+      if (!menuMobile.classList.contains('active')) {
+        btn.classList.add('show-close-btn');
+        menuMobile.classList.add('active');
+        menuMobile.style.display = 'block';
+        return
+      }
+      menuMobile.style.display = 'none';
+      btn.classList.remove('show-close-btn');
+      menuMobile.classList.remove('active');
     })
-</script>
+  </script>
 </body>
+
 </html>

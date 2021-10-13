@@ -1,89 +1,87 @@
 .banner-title {
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    color: #FF4081;
-    margin:-5px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ff4081;
+  margin: -5px;
 }
 
-.container{
-    margin: auto;
-    width: 90%;
-    text-align: center;
+.container {
+  margin: auto;
+  width: 90%;
+  text-align: center;
 }
-.container > div{
-    display: inline-block;
-    width: calc(75% / 2);    
-    vertical-align: bottom;
-    margin: 6%;
+.container > div {
+  display: inline-block;
+  width: calc(75% / 2);
+  vertical-align: bottom;
+  margin: 6%;
 }
-.container > div > img{
-    width: auto;
-}
-
-.forms{
-    width: 493px;
-    display: flex;
-    margin-top: 40px;
-    text-align: left;
+.container > div > img {
+  width: auto;
 }
 
-.form-box{
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    width: 100%;
-    padding: 6px 20px;
-    background: #FFFFFF;
-    border: 1px solid #686868;
-    box-sizing: border-box;
-    border-radius: 7px;
-    margin: 7px 0px;
+.forms {
+  width: 493px;
+  display: flex;
+  margin-top: 40px;
+  text-align: left;
 }
 
-#message{
-height: 200px;
-padding: 15px 20px;
-resize: none;
+.form-box {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  width: 100%;
+  padding: 6px 20px;
+  background: #ffffff;
+  border: 1px solid #686868;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 7px 0px;
 }
 
-.banner-title{
-    height: 80px;
+#message {
+  height: 200px;
+  padding: 15px 20px;
+  resize: none;
 }
 
-.button_submit{
+.banner-title {
+  height: 80px;
+}
 
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
-    position:static;
-    background: #FF4081;
-    border-radius: 50px;
-    border: 2px solid;
-    color: #FFFFFF;
-    padding: 5px 30px;   
-    
+.button_submit {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  position: static;
+  background: #ff4081;
+  border-radius: 50px;
+  border: 2px solid;
+  color: #ffffff;
+  padding: 5px 30px;
 }
 
 .button_submit:hover {
-    background: #FFFFFF;
-    color: #FF4081;
-    border: 2px solid #FF4081;
-  }
+  background: #ffffff;
+  color: #ff4081;
+  border: 2px solid #ff4081;
+}
 
-  @media screen and (max-width: 768px) {
-    #imagem-contato {
-      display: none;
-    }
-    .container{
-        margin: auto;
-    }
-    .container > div{
-        width: 90%;    
-    }
+@media screen and (max-width: 768px) {
+  #imagem-contato {
+    display: none;
   }
+  .container {
+    margin: auto;
+  }
+  .container > div {
+    width: 90%;
+  }
+}

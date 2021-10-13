@@ -1,5 +1,5 @@
 * {
-  font-family: 'ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 header {
@@ -94,17 +94,9 @@ header a:hover {
 
 .content-blog {
   width: 512px;
-  height: 258px;
-  left: 239px;
-  top: 239px;
-  
 }
 
-.title-content-blog{
-  width: 512px;
-  height: 108px;
-  left: 239px;
-  top: 239px;
+.title-content-blog {
   font-style: normal;
   font-weight: bold;
   font-size: 47px;
@@ -112,11 +104,7 @@ header a:hover {
   color: #009688;
 }
 
-.paragrafo-content-blog{
-  width: 461px;
-  height: 110px;
-  left: 239px;
-  top: 387px;
+.paragrafo-content-blog {
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -127,67 +115,59 @@ header a:hover {
 }
 
 .rectangle2 {
-  width: 516px;
+  max-width: 516px;
   height: 258px;
   background: #c4c4c4;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  border: 2px solid transparent;
 }
 
 .rectangle2:hover {
-  background: #FFFFFF;
+  background: #ffffff;
   color: #c4c4c4;
   border: 2px solid #c4c4c4;
 }
-.content-img{
-  width: 405px;
-  height: 405px;
-  left: 825px;
-  top: 165px;
+.content-img {
+  max-width: 405px;
+}
+
+.content-img img {
+  width: 100%;
 }
 
 .content-posts {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: #F7F7F7;
-  height: 1615px;
+  background: #f7f7f7;
+  flex-wrap: wrap;
+  padding: 45px 30px;
 }
 
-.column-1 {
-  left: 171px;
-  top: 768px;
-
-
+.content-post-1 p {
+  max-width: 518px;
 }
 
-.column-2 {
-
-  left: 171px;
-  top: 768px;
-
-
+.content-post-1 a {
+  text-decoration: none;
 }
 
-h2{
-  width: 455px;
-  height: 34px;
-  left: 171px;
-  top: 1046px;
+.content-post-1 a:visited {
+  text-decoration: none;
+}
+
+h2 {
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 34px;
   display: flex;
   align-items: center;
-  color: #FF4081;
+  color: #ff4081;
 }
 
-p{
-  width: 516px;
-  height: 80px;
-  left: 173px;
-  top: 1099px;
+p {
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
@@ -197,249 +177,29 @@ p{
   color: #000000;
 }
 
-footer {
-  display: flex;
-  background: #2e948a;
-  padding: 30px 98px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-footer .logo {
-  width: fit-content;
-  height: auto;
-}
-
-footer .logo img {
-  height: 6.3rem;
-  width: auto;
-}
-
-footer .links {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 400;
-}
-
-footer .links ul {
-  list-style: none;
-}
-
-footer .links ul li {
-  padding: 0.5rem 0;
-  color: #fff;
-  font-weight: 400;
-}
-
-footer ul li a {
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-}
-
-footer ul li a:hover {
-  color: #01645a;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-footer .btn-footer {
-  display: grid;
-  place-content: center;
-}
-
-footer .btn-footer a:nth-child(2) {
-  margin-top: 13px;
-}
-
-footer .btn-footer a {
-  display: grid;
-  place-content: center;
-  width: 17rem;
-  font-size: 1.25rem;
-  border: 2px solid white;
-  border-radius: 62px;
-  padding: 0.5rem 1rem;
-  transition: 500ms ease;
-  transition: 0.2s ease-in-out;
-}
-
-footer .btn-footer a:hover {
-  background: white;
-  color: #419488;
-  transition: 500ms ease;
-}
-
-@media screen and (max-width: 1080px){
-  header {
-    padding: 20px 16px;
-  }
-  header .logo img {
-    max-width: 164px;
-  }
-  .header-navigation {
-    display: none;
-  }
-  .btn-menu-mobile {
-    display: block;
-  }
-  footer {
-    flex-direction: column;
-    padding: 0 16px;
-  }
-
-}
-
-@media screen and (max-width: 1024px) {
-  .header-navigation > a {
-    color: #fdfdfd;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 22px;
-  }
-  .header-navigation{
-    background: #2e948a;
-    padding: 20px 85px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0px 3px 7px rgb(0 0 0 / 25%);
-    transition: 0.2s
-  }
-  
+@media screen and (max-width: 1080px) {
   .content-posts {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background: #F7F7F7;
-    height: auto;
-  }
-
-  .rectangle2{
-    width: 420px;
-    height: 210px;
-  }
-
-  h2{
-    font-weight: 400;
-    width: 420px;
-    height: 28px;
-    font-size: 28px;
-  }
-
-  p{
-    width: 420px;
-    font-size: 15px;
-  }
-
-}
-
-@media screen and (max-width: 916px) {
-  .banner-blog {
+    padding: 30px 16px;
     justify-content: center;
-  
   }
 
-  .content-blog {
-    width: 380px;
+  .banner-blog {
+    flex-direction: column;
+    align-items: center;
   }
-  
 }
 
 @media screen and (max-width: 768px) {
- .banner-blog{
-   flex-wrap: wrap;
-  }
-
-  .content-img {
-    margin: 60px 0 30px 0;
-  }
-
-  .rectangle2{
-    width: 320px;
-    height: 160px;
-  }
-
-  h2{
-    font-weight: 400;
-    width: 280px;
-    height: 22px;
-    font-size: 22px;
-    line-height: 18px;
-  }
-
-  p{
-    width: 310px;
-    font-size: 12px;
-    line-height: 17px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  header{
-    width: 480px;
-  }
-  .banner-blog{
-    justify-content: flex-start;
-
-  }
-
   .content-blog {
-    width: 425px;
-    height: 258px;
-    top: 239px;
+    width: 100%;
+    max-width: 512px;
   }
 
-  .title-content-blog{
-    width: 380px;
-    height: 108px;
-    font-size: 44px;
-    line-height: 54px;
+  .content-blog h2 {
+    font-size: 30px;
   }
 
-  .paragrafo-content-blog{
-    width: 370px;
-    height: 110px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 23px;
+  .banner-blog {
+    padding: 30px 16px;
   }
-
-  .content-posts{
-    flex-wrap: wrap;
-    width: 512px;
-  }
-
-  .rectangle2{
-    
-    width: 380px;
-
-  }
-
-  footer{
-    width: 480px;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-  .banner-blog{
-
-    width: 80%;
-  }
-
-  .content-blog{
-    margin: auto;
-  }
-
-  .content-img{
-    display: none;
-  }
-  
 }
