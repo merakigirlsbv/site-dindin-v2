@@ -50,8 +50,9 @@ Thays Santos Motta Guerreiro
 
 ## O site
 
-Página disponivel em: <a href= "https://merakigirlsbv.github.io/site-dindin-v2/"> Site Dindin </a>
-Página disponivel em: <a href= "https://unruffled-borg-41ce41.netlify.app/"> Site Dindin </a>
+Página disponivel em: <a href= "https://merakigirlsbv.github.io/site-dindin-v2/"> GitHub Pages </a>
+
+Página disponivel em: <a href= "https://unruffled-borg-41ce41.netlify.app/"> Netlify </a>
 
 
 
