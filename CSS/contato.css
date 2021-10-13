@@ -19,7 +19,7 @@
   margin: 6%;
 }
 .container > div > img {
-  width: auto;
+  width: fit-content;
 }
 
 .forms {
@@ -73,15 +73,21 @@
   color: #ff4081;
   border: 2px solid #ff4081;
 }
-
-@media screen and (max-width: 768px) {
+/* hhhhhuhu*/
+@media screen and (max-width: 998px) {
   #imagem-contato {
-    display: none;
+    width: 70%;
   }
   .container {
     margin: auto;
   }
   .container > div {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #imagem-contato {
+    display: none;
   }
 }
